@@ -1,0 +1,375 @@
+body {
+     background-image:url(https://i2.wp.com/vidviday.ua/blog/wp-content/uploads/2015/05/Manyva-vodospad-04-Int.jpg?fit=1537%2C835&ssl=1);}
+#slider { /*положение слайдера*/
+
+    position: relative;
+	text-align: center;
+    top: 10px;
+}
+
+#slider{ 
+	margin: 0 auto;
+}
+
+#slides article{ 
+	width: 20%;
+	float: left;
+}
+
+#slides .image{ 
+	width: 500%;
+	line-height: 0;
+}
+
+#overflow{ 
+	width: 100%;
+	overflow: hidden;
+}
+
+article img{ 
+	width: 100%;
+}
+
+#desktop:checked ~ #slider{ 
+	max-width: 960px; 
+}
+
+
+#switch1:checked ~ #controls label:nth-child(5), 
+#switch2:checked ~ #controls label:nth-child(1),
+#switch3:checked ~ #controls label:nth-child(2),
+#switch4:checked ~ #controls label:nth-child(3),
+#switch5:checked ~ #controls label:nth-child(4){
+	background: url('prev.png') no-repeat; 
+	float: left;
+	margin: 0 0 0 -84px; 
+	display: block;
+	height: 68px;
+	width: 68px;
+}
+
+
+#switch1:checked ~ #controls label:nth-child(2), 
+#switch2:checked ~ #controls label:nth-child(3),
+#switch3:checked ~ #controls label:nth-child(4),
+#switch4:checked ~ #controls label:nth-child(5),
+#switch5:checked ~ #controls label:nth-child(1){
+	background: url('next.png') no-repeat; 
+	float: right;
+	margin: 0 -84px 0 0; 
+	display: block;
+	height: 68px;
+	width: 68px;
+}
+
+label, a{ 
+	cursor: pointer;
+}
+
+.all input{ 
+	display: none;
+}
+.all{
+	position: relative;
+	bottom: 0px;
+}
+
+
+#switch1:checked ~ #slides .image{
+	margin-left: 0;
+}
+
+#switch2:checked ~ #slides .image{
+	margin-left: -100%;
+}
+
+#switch3:checked ~ #slides .image{
+	margin-left: -200%;
+}
+
+#switch4:checked ~ #slides .image{
+	margin-left: -300%;
+}
+
+#switch5:checked ~ #slides .image{
+	margin-left: -400%;
+}
+
+#controls{ 
+	margin: -25% 0 0 0;
+	width: 100%;
+	height: 50px;
+}
+
+#active label{ 
+	border-radius: 10px; 
+	display: inline-block; 
+	width: 15px;
+	height: 15px;
+	background: #bbb;
+}
+
+#active{ 
+	margin: 23% 0 0;
+	text-align: center;
+}
+
+#active label:hover{ 
+	background: #76c8ff;
+	border-color: #777 !important; 
+}
+
+
+#switch1:checked ~ #active label:nth-child(1),
+#switch2:checked ~ #active label:nth-child(2),
+#switch3:checked ~ #active label:nth-child(3),
+#switch4:checked ~ #active label:nth-child(4),
+#switch5:checked ~ #active label:nth-child(5){
+	background: #18a3dd;
+	border-color: #18a3dd !important;
+}
+
+#slides .image{ /*анимация пролистывания изображений*/
+	transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#controls label:hover{ /*прозрачность стрелок при наведении*/
+	opacity: 0.6;
+}
+
+#controls label{ /*прозрачность стрелок при отводе курсора*/
+	transition: opacity 0.2s ease-out;
+}
+@font-face {
+    font-family: "Exo2-Medium";
+    src: url("../fonts/Exo2-Medium.ttf");
+}
+@font-face {
+    font-family: "Exo2-MediumItalic";
+    src: url("../fonts/Exo2-MediumItalic.ttf");
+}
+@font-face {
+    font-family: "Exo2-Bold";
+    src: url("../fonts/Exo2-Bold.ttf");
+}
+@font-face {
+    font-family: "Exo2-BoldItalic";
+    src: url("../fonts/Exo2-BoldItalic.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#block-body {
+    width: 1035px;
+    margin: 5px auto;
+    height: auto;
+}
+header {
+   
+   width: 1035px; 
+   height: 80px;
+   background:rgba(0,0,0,.7);
+}
+#block-content {
+    width: 1035px;
+    height: auto;
+    min-height: 500px;
+
+}
+.logo {
+    width: 200px;
+    float: left;
+    height: 80px;
+}
+.logo a {
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: "Exo2-Bold", sans-serif;
+    font-size: 28px;
+    color:  #b2aeb2;
+    text-decoration: none;
+    cursor: pointer;
+}
+.use {
+    color: blue;
+    
+}
+.web {
+    color: yellow; 
+}
+.logo p {
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 13px;
+    color: white;
+
+}
+.top-menu {
+    width: 689px;
+    height: 80px;
+    float: left;
+
+
+}
+.top-menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    left: 100px;
+    position: relative;
+
+}
+.top-menu ul li a {
+    position: relative;
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 17px;
+    color: white;
+    height: 55px;
+    padding-top: 25px;
+    cursor: pointer;
+
+}
+.top-menu ul li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    background: orange;
+
+}
+.block-top-auth {
+    width: 100px;
+    float: left;
+    margin-left: 40px;
+    height: 80px;
+}
+.block-top-auth p {
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+    
+}
+.block-top-auth a {
+    position: relative;
+    
+    text-decoration: none;
+    color: red;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.block-top-auth a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    color: #00ADE4;
+}
+.box{
+    bottom: 440px;
+    color: white;
+    background-color: black;
+    position: relative;
+  border:1px solid black;
+    max-width:90%;
+    margin: 0px auto;
+  height: 750px;
+    background: rgba(0,0,0,.7);   
+ }
+ .yui{
+    top:50px;
+    position: relative;
+ }
+ .vbn ul li a {
+    position: relative;
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 17px;
+    color: white;
+    height: 55px;
+    padding-top: 25px;
+    cursor: pointer;
+
+}
+.vbn ul li {
+    position: relative;
+    list-style: none;
+    float: left;
+    text-align: center;
+    left: 300px;
+
+}
+.vbn {
+    width: 689px;
+    height: 80px;
+    float: flex;
+
+
+}
+.vbn ul li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    background: green;
+
+}
+.vbm ul li a {
+    position: relative;
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 17px;
+    color: white;
+    height: 55px;
+    padding-top: 25px;
+    cursor: pointer;
+
+}
+.vbm ul li {
+    position: relative;
+    list-style: none;
+    float: left;
+    text-align: center;
+    left: 400px;
+    margin-top: 40px;
+    background: rgba(0,0,0,.7); 
+
+}
+.vbm {
+    width: 689px;
+    height: 80px;
+    float: flex;
+
+
+}
+.vbm ul li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    background: red;
+
+}
+.job{
+	color:blue;
+}
+.jow{
+	color:yellow;
+}

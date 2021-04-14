@@ -1,0 +1,129 @@
+body {
+     background-image:url(https://i2.wp.com/vidviday.ua/blog/wp-content/uploads/2015/05/Manyva-vodospad-04-Int.jpg?fit=1537%2C835&ssl=1);
+ }
+ header {
+  top:50px;
+  position: relative;
+  left: 230px;
+   width: 1035px; 
+   height: 80px;
+   background:rgba(0,0,0,.7);
+}
+.use {
+    color: blue;
+    
+}
+.web {
+    color: yellow; }
+#block-content {
+    top:100px;
+    position: relative;
+    width: 1035px;
+    height: auto;
+    min-height: 500px;
+}
+.logo {
+    
+   width: 200px;
+    float:left;
+    height: 80px;
+}
+.logo a {
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: "Exo2-Bold", sans-serif;
+    font-size: 28px;
+    color:  #b2aeb2;
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo p {
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 13px;
+    color: white;
+
+}
+.top-menu {
+    width: 689px;
+    height: 80px;
+    float: left;
+    position: relative;
+    bottom: 15px;
+
+
+
+}
+.top-menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    left: 100px;
+    position: relative;
+
+}
+.top-menu ul li a {
+    position: relative;
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 17px;
+    color: white;
+    height: 55px;
+    padding-top: 25px;
+    cursor: pointer;
+
+}
+.top-menu ul li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    background: orange;
+
+}
+ .tor{
+
+  top:100px;
+  color: white;
+    background-color: black;
+    position: relative;
+  border:1px solid black;
+    max-width:80%;
+    margin: 0px auto;
+    height: 100%;
+    bottom: 500px;
+    background: rgba(0,0,0,.7);   
+ }
+ .bot{
+  top:100px;
+  color: white;
+    background-color: black;
+    position: relative;
+  border:1px solid rgba(0,0,0,.7);
+    max-width:80%;
+    margin: 0px auto;
+    height: 550px;
+    bottom: 500px;
+    background: rgba(0,0,0,.7);
+    max-height: 100%;   
+ }
+ .bow{
+  top:10px;
+  color: white;
+    background-color: black;
+    position: relative;
+  border:1px solid rgba(0,0,0,.7);
+    max-width:40%;
+    margin: 0px auto;
+    
+    bottom: 500px;
+    background: rgba(0,0,0,.7);  
+    right: 300px; 
+ }
+ 

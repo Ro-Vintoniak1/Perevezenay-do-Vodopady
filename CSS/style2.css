@@ -1,0 +1,137 @@
+body {
+     background-image:url(https://i2.wp.com/vidviday.ua/blog/wp-content/uploads/2015/05/Manyva-vodospad-04-Int.jpg?fit=1537%2C835&ssl=1);
+ }
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+
+ .bot{
+ 	top:100px;
+ 	color: white;
+    background-color: black;
+    position: relative;
+  border:1px solid black;
+    max-width:90%;
+    margin: 0px auto;
+    height: 100%;
+    bottom: 500px;
+    background: rgba(0,0,0,.7);   
+ }
+ .bor{
+ 	max-width: 80%;
+ 	left:750px;
+ 	top:20px;
+ 	position: relative;
+ }
+ .inday{
+ 	margin-left:70px;
+ 	bottom: 590px;
+ 	border:1px ;
+ 	max-width: 40%;
+ 	position: relative;
+ 	max-height: 100%;
+
+ }
+ .got{
+ 	bottom: 550px;
+ 	position: relative;
+ 	margin-left: 70px;
+ }
+ .asd{
+ 	top:70px;
+ 	position: relative;
+ }
+ .zxc{
+ 	bottom: 370px;
+ 	position: relative;
+ 	margin-left: 70px;
+ }
+ .qwe{
+ 	position: relative;
+ 	
+ 	top:50px;
+ }
+ .yui{
+ 	bottom: 250px;
+ 	position: relative;
+ }
+ .vbn ul li a {
+    position: relative;
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 17px;
+    color: white;
+    height: 55px;
+    padding-top: 25px;
+    cursor: pointer;
+
+}
+.vbn ul li {
+	position: relative;
+    list-style: none;
+    float: left;
+    text-align: center;
+    left: 300px;
+
+}
+.vbn {
+    width: 689px;
+    height: 80px;
+    float: flex;
+
+
+}
+.vbn ul li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    background: green;
+
+}
+.vbm ul li a {
+    position: relative;
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 17px;
+    color: white;
+    height: 55px;
+    padding-top: 25px;
+    cursor: pointer;
+
+}
+.vbm ul li {
+	position: relative;
+    list-style: none;
+    float: left;
+    text-align: center;
+    left: 400px;
+    margin-top: 40px;
+    background: rgba(0,0,0,.7); 
+
+}
+.vbm {
+    width: 689px;
+    height: 80px;
+    float: flex;
+
+
+}
+.vbm ul li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    background: red;
+
+}
+
+ 
